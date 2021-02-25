@@ -4,7 +4,7 @@ import MuseScore 3.0
 import FileIO 3.0
 
 MuseScore {
-      menuPath: "Plugins.Discord Rich Presence"
+      menuPath: "Plugins.Current Score Info"
       description: "A plugin that outputs the current score's information to a text file in the plugins folder"
       version: "1.0"
       requiresScore: true
