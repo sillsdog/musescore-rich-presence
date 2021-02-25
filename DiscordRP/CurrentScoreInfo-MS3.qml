@@ -10,7 +10,7 @@ MuseScore {
       requiresScore: true
       FileIO {
             id: outfile
-            source: "curr.json"
+            source: "path_to_curr.json"
             onError: console.log(msg)
       }
       function makeScoreInfo(cscore) {
