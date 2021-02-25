@@ -19,7 +19,7 @@ Edited by sillsdog, forked from FireController1847
 3. When inside MuseScore, enable the plugin.
 4. Edit `start.bat` so the first line indexes the correct folder with `rpc.js`. For example, `C:/Users/user/Documents/MuseScore3/Plugins/DiscordRP` should be indexed.
 5. Run `start.bat`. This is a file that will run the javascript file while also opening MuseScore so it does not have to be manually ran. Instead of using a shortcut to open Musescore, this batch file will open both the plugin and MuseScore at the same time.
-6. After opening MuseScore (after closing from when installing the plugin), be sure to run the `Current Score Info` plugin. While this plugin is running, it will constantly update Discord's rich presence. If this step is forgotten, then the score from the most recent session will appear on rich presence.
+6. After opening MuseScore (after closing from when installing the plugin), be sure to run the `Current Score Info` plugin. While this plugin is running, it will constantly update Discord's rich presence. If this step is forgotten, the score from the most recent session will appear on rich presence.
 
 ## Examples
 This Rich Presence includes active states, meaning your state will constantly change to show more information. Below shows an example for each one of those.
