@@ -20,7 +20,7 @@ Edited by sillsdog, forked from FireController1847
 4. Run rpc.js (`node src/rpc.js`)
 
 ## Examples
-\* This Rich Presence includes active states, meaning your state will constantly change to show more information. Below shows an example for each one of those.
+This Rich Presence includes active states, meaning your state will constantly change to show more information. Below shows an example for each one of those.
 
 ![](https://i.imgur.com/fPKKteE.png)  
 ![](https://i.imgur.com/OnaBi5m.png)  
