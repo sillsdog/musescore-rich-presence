@@ -7,7 +7,7 @@ Edited by sillsdog, forked from FireController1847
 ## Requirements
 * [Musescore 3.x](https://musescore.org/en)
 * [node.js](https://nodejs.dev/)
-* [@arcsine/win0info](https://www.npmjs.com/package/@arcsine/win-info)
+* [@arcsine/win-info](https://www.npmjs.com/package/@arcsine/win-info)
 * [fp](https://www.npmjs.com/package/fp)
 * [path](https://www.npmjs.com/package/path)
 * fs
