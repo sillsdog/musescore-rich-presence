@@ -1,15 +1,15 @@
 # MuseScore Rich presence
-Discord Rich Presence for MuseScore
-Only tested on Windows 10
+Discord Rich Presence for MuseScore\
+Only tested on Windows 10\
 Edited by sillsdog, forked from FireController1847
 
 ## Requirements
-[node.js](https://nodejs.dev/)
-[@arcsine/win0info](https://www.npmjs.com/package/@arcsine/win-info)
-[fp](https://www.npmjs.com/package/fp)
-[path](https://www.npmjs.com/package/path)
-fs
-[discord-rpc](https://www.npmjs.com/package/discord-rpc)
+* [node.js](https://nodejs.dev/)\
+* [@arcsine/win0info](https://www.npmjs.com/package/@arcsine/win-info)\
+* [fp](https://www.npmjs.com/package/fp)\
+* [path](https://www.npmjs.com/package/path)\
+* fs\
+* [discord-rpc](https://www.npmjs.com/package/discord-rpc)
 
 ### Installation for MuseScore 3
 1. Install the CurrentScoreInfo-MS3.qml Plugin Into MuseScore
