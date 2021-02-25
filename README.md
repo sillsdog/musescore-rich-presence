@@ -1,9 +1,11 @@
 # MuseScore Rich presence
 Discord Rich Presence for MuseScore\
 Only tested on Windows 10\
+Untested on Musescore 2.x\
 Edited by sillsdog, forked from FireController1847
 
 ## Requirements
+* [Musescore 3.x](https://musescore.org/en)
 * [node.js](https://nodejs.dev/)
 * [@arcsine/win0info](https://www.npmjs.com/package/@arcsine/win-info)
 * [fp](https://www.npmjs.com/package/fp)
@@ -16,8 +18,6 @@ Edited by sillsdog, forked from FireController1847
 2. When inside MuseScore, enable the plugin. Then click on the button once under Plugins -> CurrentScoreInfo to run it.
 3. Clone this repository and install node modules (`npm i`)
 4. Run rpc.js (`node src/rpc.js`)
-
-Tada! I'm looking forward to refining this and making it work better in the future.
 
 ## Examples
 \* This Rich Presence includes active states, meaning your state will constantly change to show more information. Below shows an example for each one of those.
