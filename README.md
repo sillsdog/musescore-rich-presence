@@ -16,7 +16,7 @@ Edited by sillsdog, forked from FireController1847
 ## Installation for MuseScore 3.x
 1. Download/clone the repository and install node modules (`npm i`).
 2. Install the plugin into MuseScore by putting the `DiscordRP` folder into MuseScore's user plugins file. For example, the file should be in the `C:/Users/user/Documents/MuseScore3/Plugins` folder.
-3. When inside MuseScore, enable the plugin.
+3. When inside MuseScore, enable the `CurrentScoreInfo-MS3` plugin.
 4. Edit `start.bat` so the first line indexes the correct folder with `rpc.js`. For example, `C:/Users/user/Documents/MuseScore3/Plugins/DiscordRP` should be indexed.
 5. Run `start.bat`. This is a file that will run the javascript file while also opening MuseScore so it does not have to be manually ran. Instead of using a shortcut to open Musescore, this batch file will open both the plugin and MuseScore at the same time.
 6. After opening MuseScore (after closing from when installing the plugin), be sure to run the `Current Score Info` plugin. While this plugin is running, it will constantly update Discord's rich presence. If this step is forgotten, the score from the most recent session will appear on rich presence.
