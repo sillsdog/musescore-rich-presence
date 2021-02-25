@@ -1,5 +1,5 @@
-# MuseScore Rich presence
-Discord Rich Presence for MuseScore\
+# MuseScore Rich Presence
+Discord rich presence for MuseScore\
 Only tested on Windows 10\
 Untested on Musescore 2.x\
 Edited by sillsdog, forked from FireController1847
