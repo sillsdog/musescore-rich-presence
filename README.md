@@ -13,11 +13,13 @@ Edited by sillsdog, forked from FireController1847
 * fs
 * [discord-rpc](https://www.npmjs.com/package/discord-rpc)
 
-### Installation for MuseScore 3
-1. Install the CurrentScoreInfo-MS3.qml Plugin Into MuseScore
-2. When inside MuseScore, enable the plugin. Then click on the button once under Plugins -> CurrentScoreInfo to run it.
-3. Clone this repository and install node modules (`npm i`)
-4. Run rpc.js (`node src/rpc.js`)
+## Installation for MuseScore 3.x
+1. Download/clone the repository and install node modules (`npm i`).
+2. Install the `CurrentScoreInfo-MS3.qml plugin` into Musescore by putting the `DiscordRP` folder into Musescore's user plugins file. For example, the file should be in the `C:/Users/user/Documents/MuseScore3/Plugins` folder.
+3. When inside MuseScore, enable the plugin.
+4. Edit `start.bat` so the first line indexes the correct folder with `rpc.js`. For example, `C:/Users/user/Documents/MuseScore3/Plugins/DiscordRP` should be indexed.
+5. Run `start.bat`. This is a file that will run the javascript file while also opening Musescore so it does not have to be manually ran. Instead of using a shortcut to open Musescore, this batch file will open both the plugin and Musescore at the same time.
+6. After opening Musescore (after closing from when installing the plugin), be sure to run the `Current Score Info` plugin. While this plugin is running, it will constantly update Discord's rich presence.
 
 ## Examples
 This Rich Presence includes active states, meaning your state will constantly change to show more information. Below shows an example for each one of those.
